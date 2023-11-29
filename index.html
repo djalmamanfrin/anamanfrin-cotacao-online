@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Topic Listing Bootstrap 5 Template</title>
+
+        <!-- CSS FILES -->        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
+                        
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/templatemo-topic-listing.css" rel="stylesheet">      
+
+    </head>
+    
+    <body id="top">
+
+        <main>
+
+            <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+                <div class="container">
+                    <div class="text-center">
+                        <img width="350" height="70" src="images/ciprov-logo.webp" alt="arrow">
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-10 col-12 mx-auto">
+                            <h1 class="text-center text-yellow">Descubra Agora!</h1>
+
+                            <p class="text-center text-white fs-4 mt-4">
+                                Veja quanto você pagaria para proteger seu automóvel
+                            </p>
+
+                            <div class="row range">
+                                <div class="col-12 justify-values">
+                                    <label for="fipe">Informe a FIPE do seu veículo abaixo:</label>
+                                </div>
+                                <div class="col-lg-2 col-12 mx-auto justify-values">
+                                        R$ <span id="sliderValue100">20</span>.000,00
+                                </div>
+                                <div class="col-lg-8 col-12 mx-auto">
+                                    <input id="fipe" class="pulse" type="range" min="20" max="200" value="1" step="1">
+                                </div>
+                                <div class="col-lg-2 col-12 mx-auto justify-values">
+                                    <div class="value right">R$ 200.000,00</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="featured-section">
+                <div class="container">
+                    <div class="row justify-content-center">
+
+                        <div class="col-lg-5 col-12 mb-4 mb-lg-0">
+                            <div class="two-column">
+                                <div class="col-12 custom-block bg-white shadow-lg">
+                                    <h5 class="mb-2 text-primary">
+                                        Informações Financeiras
+                                    </h5>
+
+                                    <ul class="list-group">
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Valor Protegido
+                                            <div> R$ <span id="protection-value">20</span>.000,00 </div>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Valor da Adesão
+                                            <div class="price"> R$ <span id="contract-value">200</span>,00 </div>
+                                            <div class="loading visually-hidden small">
+                                                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                            Valor Médio Mensalidade
+                                            <div class="price"> R$ <span id="monthly-payment">90</span>,00 </div>
+                                            <div class="loading visually-hidden small">
+                                                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <div class="mt-5 d-grid gap-2">
+                                        <a class="btn btn-primary" type="button" href="https://wa.link/arpb8k" target="_blank">
+                                            Quero saber mais
+                                        </a>
+                                    </div>
+
+                                    <p class="text-center small mt-1">
+                                        Você merece um bom negócio! Economize seu dinheiro e invista no que realmente importa!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-7 col-12 mb-4 mb-lg-0">
+                            <div class="custom-block bg-white shadow-lg">
+
+                                <h5 class="mb-2 text-primary">Produtos Vinculados</h5>
+
+                                <div class="accordion" id="accordionProduct">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingProductOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProductOne" aria-expanded="true" aria-controls="collapseProductOne">
+                                                <i class="bi-check-square-fill"></i>
+                                                <span class="ms-2">Assistência 24 Horas até 1000km</span>
+                                            </button>
+                                        </h2>
+
+                                        <div id="collapseProductOne" class="accordion-collapse collapse show" aria-labelledby="headingProductOne" data-bs-parent="#accordionProduct">
+                                            <div class="accordion-body">
+                                                O nosso socorro para o seu carro funciona em todo território nacional e
+                                                cobrimos até 1000Km (No plano Gold). Você pode acionar a gente rapidinho
+                                                pelo whatsapp, estamos lá 24 horas por dia, todos os dias da semana,
+                                                até mesmo no feriado. Aqui não tem tempo ruim!
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingProductTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProductTwo" aria-expanded="false" aria-controls="collapseProductTwo">
+                                                <i class="bi-check-square-fill"></i>
+                                                <span class="ms-2">Auxílio Chaveiro</span>
+                                            </button>
+                                        </h2>
+
+                                        <div id="collapseProductTwo" class="accordion-collapse collapse" aria-labelledby="headingProductTwo" data-bs-parent="#accordionProduct">
+                                            <div class="accordion-body">
+                                                Se você perder a chave ou trancá-la no carro, enviamos um chaveiro até o local que você estiver para abri-lo e cobrimos o serviço, assim você poderá seguir viagem e solicitar uma cópia da chave como serviço à parte e ter o seu problema resolvido.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingProductThree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProductThree" aria-expanded="false" aria-controls="collapseProductThree">
+                                                <i class="bi-check-square-fill"></i>
+                                                <span class="ms-2">Pane Elétrica / Mecânica</span>
+                                            </button>
+                                        </h2>
+
+                                        <div id="collapseProductThree" class="accordion-collapse collapse" aria-labelledby="headingProductThree" data-bs-parent="#accordionProduct">
+                                            <div class="accordion-body">
+                                                Pode acontecer falhas ou mal funcionamento no motor do veículo, se a causa
+                                                de sua parada for pane mecânica ou elétrica pode nos contatar que acionaremos
+                                                um guincho. Nos casos de viagem em rodovias levaremos seu veículo no mecânico mais próximo.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingProductFour">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProductFour" aria-expanded="false" aria-controls="collapseProductFour">
+                                                <i class="bi-check-square-fill"></i>
+                                                <span class="ms-2">Pane Seca ou Troca de Pneu</span>
+                                            </button>
+                                        </h2>
+
+                                        <div id="collapseProductFour" class="accordion-collapse collapse" aria-labelledby="headingProductFour" data-bs-parent="#accordionProduct">
+                                            <div class="accordion-body">
+                                                Nesses casos, ligue o seu pisca alerta e depois entre em contato com a
+                                                nossa equipe. Iremos até você para resolver o problema o mais rápido possível.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingProductFive">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProductFive" aria-expanded="false" aria-controls="collapseProductFive">
+                                                <i class="bi-check-square-fill"></i>
+                                                <span class="ms-2">Colisao e/ou Perda Total</span>
+                                            </button>
+                                        </h2>
+
+                                        <div id="collapseProductFive" class="accordion-collapse collapse" aria-labelledby="headingProductFive" data-bs-parent="#accordionProduct">
+                                            <div class="accordion-body">
+                                                Se acontecer um acidente e seu carro der PT (perda total), não precisa
+                                                perder a cabeça. Dá um susto danado saber que o carro não tem conserto,
+                                                mas a boa notícia é que nossa cobertura garante o <span class="fw-bold"> valor total da FIPE *</span>
+                                                do veículo de volta no seu bolso, pra você usar como quiser -
+                                                até mesmo pra colocar um novo carrão na garagem.
+                                            </div>
+                                            <div class="accordion-body small">
+                                                * carros de leilão cobrimos apenas 75% da FIPE
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingProductSix">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProductSix" aria-expanded="false" aria-controls="collapseProductSix">
+                                                <i class="bi-check-square-fill"></i>
+                                                <span class="ms-2">Danos Corporais a Terceiros</span>
+                                            </button>
+                                        </h2>
+
+                                        <div id="collapseProductSix" class="accordion-collapse collapse" aria-labelledby="headingProductSix" data-bs-parent="#accordionProduct">
+                                            <div class="accordion-body">
+                                                Vamos supor que você sofra um acidente com outras pessoas envolvidas...
+                                                É melhor garantir uma ajudinha extra nessas horas :) Essa cobertura te
+                                                ajuda nas despesas até R$100.000,00 que for obrigado a pagar, seja com
+                                                médicos, internações, exames e até advogados, se alguém te processar.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingProductSeven">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProductSeven" aria-expanded="false" aria-controls="collapseProductSeven">
+                                                <i class="bi-check-square-fill"></i>
+                                                <span class="ms-2">Danos Materiais a Terceiros</span>
+                                            </button>
+                                        </h2>
+
+                                        <div id="collapseProductSeven" class="accordion-collapse collapse" aria-labelledby="headingProductSeven" data-bs-parent="#accordionProduct">
+                                            <div class="accordion-body">
+                                                Se você estiver dirigindo e bater no carro ou bens de outras pessoas,
+                                                dá pra contar com a ajuda dessa cobertura pra bancar as despesas que
+                                                tiver com reparos, reposições e até mesmo com advogados, se precisar.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingProductEight">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProductEight" aria-expanded="false" aria-controls="collapseProductEight">
+                                                <i class="bi-check-square-fill"></i>
+                                                <span class="ms-2">Fenômenos Da Natureza</span>
+                                            </button>
+                                        </h2>
+
+                                        <div id="collapseProductEight" class="accordion-collapse collapse" aria-labelledby="headingProductEight" data-bs-parent="#accordionProduct">
+                                            <div class="accordion-body">
+                                                O clima anda mudando, hein! A boa notícia é que você pode proteger seu
+                                                veículo mesmo assim, se for pego de surpresa no meio de um alagamento ou
+                                                se outros eventos naturais detonarem seu carro. Ah, escolhendo as coberturas
+                                                de Colisão e Roubo, esses eventos naturais estão automaticamente cobertos
+                                                pelo seguro auto sem custo adicional, tá?
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingProductNine">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProductNine" aria-expanded="false" aria-controls="collapseProductNine">
+                                                <i class="bi-check-square-fill"></i>
+                                                <span class="ms-2">Roubo / Furto</span>
+                                            </button>
+                                        </h2>
+
+                                        <div id="collapseProductNine" class="accordion-collapse collapse" aria-labelledby="headingProductNine" data-bs-parent="#accordionProduct">
+                                            <div class="accordion-body">
+                                                Seu carro foi roubado ou furtado? Não dá pra ficar no prejuízo, né.
+                                                Pra garantir que tudo fique numa boa com seu bolso, você recebe o valor
+                                                integral do veículo se ele não for encontrado em até 30 dias. Se ele for
+                                                encontrado mas estiver bem detonado, do tipo que nem vale a pena consertar,
+                                                o seguro também cobre o prejuízo pra você.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingProductTen">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProductTen" aria-expanded="false" aria-controls="collapseProductTen">
+                                                <i class="bi-check-square-fill"></i>
+                                                <span class="ms-2">Vidros Totais</span>
+                                            </button>
+                                        </h2>
+
+                                        <div id="collapseProductTen" class="accordion-collapse collapse" aria-labelledby="headingProductTen" data-bs-parent="#accordionProduct">
+                                            <div class="accordion-body">
+                                                Oferecemos a cobertura para pára-brisas, vidros, faróis, lanternas e retrovisores.
+                                                A cota de participação é 35% referente ao valor do evento.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="faq-section section-padding" id="section_3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-12">
+                            <h2 class="mb-4 text-yellow">Ainda Possui Dúvidas?</h2>
+                            <img src="images/faq_graphic.webp" class="img-fluid" alt="FAQs">
+                        </div>
+
+                        <div class="col-lg-8 col-12 m-auto">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Quem é a CIPROV?
+                                        </button>
+                                    </h2>
+
+                                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            A CIPROV atua há mais de 10 anos no segmento de proteção veicular.
+                                            Onde oferece planos com cobertura para eventos de roubo, furto, colisão,
+                                            perda total, danos à terceiros, assistência 24 horas dentre outros.
+                                            Somos uma Associação formada por profissionais sérios e competentes, que
+                                            sempre buscam atualizações no mercado para que nossos associados contem com
+                                            os melhores planos e benefícios a um preço justo!
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Como funciona a proteção da CIPROV?
+                                    </button>
+                                    </h2>
+
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            A CIPROV trabalha com o conceito de rateio, onde divide-se, de uma forma direta, os
+                                            custos dos eventos (roubo, furto, colisão, enchente, etc) dos associados, de
+                                            forma que, caso algum associado enfrente algum tipo de contratempo coberto
+                                            pela CIPROV, o problema seja resolvido no menor tempo possível, de forma ágil
+                                            e sem burocracias desnecessárias.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            Qual a diferença entre a CIPROV e um Seguro?
+                                    </button>
+                                    </h2>
+
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body small">
+                                            A CIPROV possui rateios de despesas mensais entre seus associados, diferente
+                                            das seguradoras, que vendem uma apólice em busca de lucro econômico, assumindo
+                                            risco futuro no seu negócio.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFour">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                            A CIPROV está regulamentada?
+                                        </button>
+                                    </h2>
+
+                                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Sim, o CIPROV está regulamentada. A Constituição Federal, em seu artigo 5º,
+                                            garante o direito à livre associação, o que legitima a atuação das associações
+                                            para fins de proteção mútua.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFive">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                            Como será definida a minha cota?
+                                        </button>
+                                    </h2>
+
+                                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            A avaliação de quanto o associado irá pagar para proteger seu veículo é feita com a Tabela FIPE.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingSix">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                            Em caso de indenização, em quanto tempo eu recebo?
+                                        </button>
+                                    </h2>
+
+                                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Em caso de perda total ou furto/roubo, seu ressarcimento será feito em até 90 dias.
+                                            Temos casos de associados que receberam em 40 dias, um diferencial da CIPROV
+                                            pois prezamos pela agilidade.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingSeven">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                            O guincho 24 horas tem limite de distância?
+                                        </button>
+                                    </h2>
+
+                                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Limite de reboque até 1000 km (Conforme categoria do seu veículo, para maiores informações solicite sua cotação gratuita.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact-section section-padding section-bg" id="section_4">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12 text-center">
+                            <h2 class="mb-5 text-yellow">Faça-nos uma visita</h2>
+                        </div>
+
+                        <div class="col-lg-8 col-12 mb-4 mb-lg-0">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.890717163931!2d-49.285685089346515!3d-25.441916877460617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce3fcefd49b5b%3A0xfdc3ff5b4691c0f3!2sCIPROV%20PROTE%C3%87%C3%83O%20VEICULAR!5e0!3m2!1sen!2sbr!4v1700101132108!5m2!1sen!2sbr" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12 mb-3 mb-lg- mb-md-0 ms-auto">
+                            <h4 class="mb-3">Curitiba / PR</h4>
+
+                            <p>R. Alferes Ângelo Sampaio, 1290 - Água Verde, Curitiba - PR, 80420-160</p>
+
+                            <hr>
+
+                            <p class="d-flex align-items-center mb-1">
+                                <span class="me-2">Whats</span>
+
+                                <a href="tel: 41984299404" class="text-primary">
+                                    (41) 984 299 404
+                                </a>
+                            </p>
+
+                            <p class="d-flex align-items-center">
+                                <span class="me-2">Email</span>
+
+                                <a href="mailto:ana.manfrin@ciprov.com.br" class="text-primary">
+                                    ana.manfrin@ciprov.com.br
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="container bg-primary text-white">
+                            <div class="row text-center justify-content-center py-2">
+                                <div class="col-12 col-sm-8 col-md-6 col-lg-auto text-center text-md-start">
+                                    <p class="very-small my-2 text-white fw-bold">Todos os Direitos Reservados &copy; ManTechS, 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <a class="whatsapp-action display-none"
+               onclick="gtag_report_conversion('https://wa.link/arpb8k')"
+               href="https://wa.link/arpb8k"  target="_blank">
+            </a>
+        </main>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/click-scroll.js"></script>
+        <script src="js/custom.js"></script>
+    </body>
+</html>
